@@ -6,59 +6,91 @@
     "spread": false
   },
   {
-    "title": "终端",
-    "icon": "&#xe63b;",
+    "title": "语音调度",
+    "icon": "icon-voice",
     "href": "",
     "spread": false,
     "children": [
       {
-        "title": "终端",
+        "title": "语音终端",
         "icon": "&#xe63b;",
         "href": "page/terminal/terminal.html",
         "spread": false
       },
       {
-        "title": "终端群组",
+        "title": "语音群组",
         "icon": "icon-screengroup",
         "href": "page/terminal_group/terminal_group.html",
-        "spread": false
-      },
-      {
-        "title": "操作记录",
-        "icon": "icon-jilu",
-        "href": "page/terminal_record/terminal_record.html",
         "spread": false
       }
     ]
   },
   {
-    "title": "节目管理",
+    "title": "视频调度",
     "icon": "&#xe6ed;",
-    "href": "page/program/program.html",
-    "spread": false
-  },
-  {
-    "title": "播放日程",
-    "icon": "&#xe637;",
-    "href": "page/play_schedule/play_schedule.html",
-    "spread": false
-  },
-  {
-    "title": "素材库",
-    "icon": "&#xe64a;",
     "href": "",
     "spread": false,
     "children": [
       {
-        "title": "素材",
-        "icon": "&#xe64a;",
-        "href": "page/material/material.html",
+        "title": "视频终端",
+        "icon": "&#xe63b;",
+        "href": "page/terminal/terminal.html",
         "spread": false
       },
       {
-        "title": "模板比例",
-        "icon": "&#xe630;",
-        "href": "page/template/template.html",
+        "title": "视频群组",
+        "icon": "icon-screengroup",
+        "href": "page/terminal_group/terminal_group.html",
+        "spread": false
+      }
+    ]
+  },
+  {
+    "title": "地图调度",
+    "icon": "icon-map",
+    "href": "",
+    "spread": false
+  },
+  {
+    "title": "会议",
+    "icon": "icon-meeting",
+    "href": "",
+    "spread": false
+  },
+  {
+    "title": "短信",
+    "icon": "icon-message",
+    "href": "",
+    "spread": false
+  },
+  {
+    "title": "呼叫记录",
+    "icon": "&#xe637;",
+    "href": "",
+    "spread": false
+  },
+  {
+    "title": "录音管理",
+    "icon": "icon-voice",
+    "href": "",
+    "spread": false
+  },
+  {
+    "title": "呼叫管理",
+    "icon": "icon-call",
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "回传管理",
+        "icon": "icon-return",
+        "href": "",
+        "spread": false
+      },
+      {
+        "title": "对讲管理",
+        "icon": "icon-intercom",
+        "href": "",
         "spread": false
       }
     ]
@@ -66,8 +98,22 @@
   {
     "title": "用户",
     "icon": "&#xe612;",
-    "href": "page/user/user.html",
-    "spread": false
+    "href": "",
+    "spread": false,
+    "children": [
+      {
+        "title": "用户管理",
+        "icon": "&#xe612;",
+        "href": "page/user/user.html",
+        "spread": false
+      },
+      {
+        "title": "权限管理",
+        "icon": "icon-permissions",
+        "href": "page/user/permissions.html",
+        "spread": false
+      }
+    ]
   },
   {
     "title": "设置",
