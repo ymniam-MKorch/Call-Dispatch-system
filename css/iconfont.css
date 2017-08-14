@@ -143,13 +143,9 @@
 }
 
 .icon-return:before {
-    content: '\e6a1';
+    content: '\e600';
 }
 
 .icon-intercom:before {
-    content: '\e60d';
-}
-
-.icon-listen:before {
-    content: '\e604';
+    content: '\e601';
 }
